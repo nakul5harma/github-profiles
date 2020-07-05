@@ -9,6 +9,7 @@
     "format": "prettier --write \"{src,e2e}/**/*.{ts,html,scss,json,js}\"",
     "lint": "ng lint",
     "test": "ng test",
+    "test:cov": "ng test --codeCoverage",
     "test:e2e": "ng e2e --port 4300"
   },
   "private": true,
